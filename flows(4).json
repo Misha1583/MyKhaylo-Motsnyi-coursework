@@ -1,0 +1,29 @@
+[
+    {
+        "id": "f549b8f3e3eaba90",
+        "type": "change",
+        "z": "sim_tab_2026",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.content",
+                "pt": "msg",
+                "to": "📊 Плинні значення: • Температура: 22.5 °C • Тиск: 1.2 бар",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1010,
+        "y": 260,
+        "wires": [
+            [
+                "7c5482e2484f40ce"
+            ]
+        ]
+    }
+]
